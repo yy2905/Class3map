@@ -50,7 +50,7 @@ var config = {
         {
             id: 'Q2-id',
             title: 'Confirmed Cases in Hong Kong and Macao',
-            image: '1_HM.png',
+            image: '2_HM.png',
             description: 'As two Special Administrative Regions, Hong Kong and Macao also reported 63 and 10 cases, respectively.',
             location: {
                 center: [116.413384, 39.910925],
