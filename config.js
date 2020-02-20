@@ -76,7 +76,7 @@ var config = {
             onChapterExit: []
         },
         {
-               id: 'F-id',
+       id: 'Q4-id',
                title: '2020.02.19 Epidemic Situation Map',
                image: '4_Situation.png',
                description: 'Behind every death figure is a broken family. We hope that this disaster will pass as soon as possible.',
@@ -88,6 +88,16 @@ var config = {
                },
                onChapterEnter: [],
                onChapterExit: []
+           },
+           {
+             id: 'F-id',
+             title: 'Please click here to see the virus report in the US',
+             image:'5_US.png', 
+             location: {
+                 center: [-106.5479159, 36.7266884],
+                 zoom: 2,
+                 pitch: 51.50,
+                 bearing: 0.00
            }
        ]
    };
