@@ -50,8 +50,8 @@ var config = {
             location: {
                center: [114.1786515, 22.2825256],
                zoom: 8.01,
-               pitch: 60.00,
-               bearing: -41.62
+               pitch: 60.00, //pitch: gradient, inclinced
+               bearing: -41.62 //軸
             },
             onChapterEnter: [],
             onChapterExit: []
@@ -87,7 +87,7 @@ var config = {
            {
              id: 'F-id',
              title: 'Please scan the QR code here to see the COVID-2019 Case Report in the US',
-             image:'5_US.jepg', 
+             image:'5_US.jpeg', 
              location: {
                  center: [-106.5479159, 36.7266884],
                  zoom: 2,
