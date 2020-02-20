@@ -30,7 +30,7 @@ var config = {
             description: 'Until February 19, 2020, Hubei has reported 61,682 confirmed cases, and around 72% patients are confirmed and now under treatment in Wuhan.',
             location: {
                 center: [114.2484635, 30.5981059], // wuhan latitude https://www.google.com/maps/search/%E6%AD%A6%E6%B1%89%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C/@30.5981059,114.2484635,12z/data=!3m1!4b1
-                zoom: 7,26,
+                zoom: 7.26,
                 pitch: 60.00,
                 bearing: 28.00
             },
