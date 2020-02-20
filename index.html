@@ -179,7 +179,8 @@ config.chapters.forEach((record, idx) => {
             if (confirm("Do you want to open CDC website")) {
                 window.open("https://www.cdc.gov/coronavirus/2019-ncov/cases-in-us.html");
             }
-        }        
+        }
+        chapter.appendChild(layerOpen);
     }
 
     if (record.description) {
