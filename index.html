@@ -173,6 +173,16 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
 
+    
+    if (record.button) {
+        var button = document.createElement("button");
+        button.innerHTML = "OPEN USA CDC WEBSITE");
+        button.addEventListener ("click", function() {
+            window.open("https://www.cdc.gov/coronavirus/2019-ncov/cases-in-us.html");
+        });
+        chapter.appendChild(button);
+    }
+    
     if (record.description) {
         var story = document.createElement('p');
         story.innerHTML = record.description;
