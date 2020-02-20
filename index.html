@@ -172,6 +172,15 @@ config.chapters.forEach((record, idx) => {
         image.src = record.image;
         chapter.appendChild(image);
     }
+    
+    if (record.button) {
+        var layerOpen = null;
+        function Click1() {
+            if (confirm("Do you want to open CDC website")) {
+                window.open("https://www.cdc.gov/coronavirus/2019-ncov/cases-in-us.html");
+            }
+        }        
+    }
 
     if (record.description) {
         var story = document.createElement('p');
