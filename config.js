@@ -65,7 +65,7 @@ var config = {
             id: 'Q3-id',
             title: 'Confirmed Cases in China',
             image: '3_China.png',
-            description: 'We devided China into several regions as follows: Central China Region (Henan, Hubei and Hunan); East China Region (Shandong, Jiangsu, Anhui, Zhejiang, Fujian, Shanghai, Jiangxi and Taiwan); South China Region (Guangdong, Guangxi, Hainan, Hong Kong and Macao); Southwest China Region(Yunnan, Guizhou, Sichuan and Tibet); North China Region (Hebei, Shanxi, Inner Mongolia, Beijing and Tianjin); Northeast China Region (Liaoning, Jilin and Heilongjiang); Northwest China Region (Xinjiang, Shaanxi, Ningxia, Qinghai and Gansu)',
+            description: 'We devided China into several regions as follows: Central China Region (Henan, Hubei and Hunan); East China Region (Shandong, Jiangsu, Anhui, Zhejiang, Fujian, Shanghai, Jiangxi and Taiwan); South China Region (Guangdong, Guangxi, Hainan, Hong Kong and Macao); Southwest China Region(Yunnan, Guizhou, Sichuan and Tibet); North China Region (Hebei, Shanxi, Inner Mongolia, Beijing and Tianjin); Northeast China Region (Liaoning, Jilin and Heilongjiang); Northwest China Region (Xinjiang, Shaanxi, Ningxia, Qinghai and Gansu).',
             location: {
                 center: [116.413384,39.910925],
                 zoom: 5.00,
