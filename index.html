@@ -175,12 +175,12 @@ config.chapters.forEach((record, idx) => {
 
     
     if (record.button) {
-        var button = document.createElement("button");
-        button.innerHTML = record.button;
-        button.addEventListener ("click", function() {
+        var button1 = document.createElement("button");
+        button1.innerHTML = record.button;
+        button1.addEventListener ("click", function() {
             window.open("https://www.cdc.gov/coronavirus/2019-ncov/cases-in-us.html");
         });
-        chapter.appendChild(button);
+        chapter.appendChild(button1);
     }
     
     if (record.description) {
