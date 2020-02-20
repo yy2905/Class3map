@@ -87,7 +87,7 @@ var config = {
            {
              id: 'F-id',
              title: 'Please scan the QR code here to see the COVID-2019 Case Report in the US',
-             image:'5_US.png', 
+             image:'5_US.jepg', 
              location: {
                  center: [-106.5479159, 36.7266884],
                  zoom: 2,
