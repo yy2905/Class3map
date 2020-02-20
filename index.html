@@ -172,7 +172,7 @@ config.chapters.forEach((record, idx) => {
         image.src = record.image;
         chapter.appendChild(image);
     }
-    
+
     if (record.description) {
         var story = document.createElement('p');
         story.innerHTML = record.description;
@@ -270,4 +270,3 @@ window.addEventListener('resize', scroller.resize);
 
 </body>
 </html>
-
