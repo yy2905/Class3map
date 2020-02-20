@@ -40,12 +40,7 @@ var config = {
                 //     opacity: 1
                 // }
             ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+            onChapterExit: []
         },
         {
             id: 'Q2-id',
@@ -91,7 +86,7 @@ var config = {
            },
            {
              id: 'F-id',
-             title: 'Please scan the QR code here to see the virus report in the US',
+             title: 'Please scan the QR code here to see the COVID-2019 Case Report in the US',
              image:'5_US.png', 
              location: {
                  center: [-106.5479159, 36.7266884],
